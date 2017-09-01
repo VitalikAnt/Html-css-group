@@ -1,0 +1,71 @@
+.call_to_action {
+  height: 400px;
+  background: url("../img/call-to-action.jpg");
+  display: flex;
+  flex-direction: column;
+}
+.call_to_action article {
+  margin: 0 auto;
+  width: 300px;
+  text-align: center;
+  color: #b9ffa4;
+}
+.call_to_action h1 {
+  margin: 75px auto 0;
+  font-size: 38px;
+  text-align: center;
+  color: #b9ffa4;
+}
+.call_to_action button {
+  width: 150px;
+  height: 30px;
+  background: #00afc7;
+  border-radius: 10%;
+  color: #b9ffa4;
+}
+.credibility_logos {
+  height: 70px;
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 120px;
+}
+.credibility_logos h3 {
+  line-height: 50px;
+  font-size: 21px;
+  color: #447536;
+}
+.credibility_logos img {
+  height: 50px;
+}
+header {
+  height: 50px;
+  background: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.logo img {
+  height: 50px;
+  width: 150px;
+}
+.menu {
+  display: flex;
+  width: 450px;
+  justify-content: space-between;
+}
+header a {
+  color: #639454;
+}
+body {
+  font-family: sans-serif;
+}
+.wrap {
+  width: 1170px;
+  margin: 0 auto;
+  box-shadow: 0 0 10px 5px #ddd;
+}
+a {
+  text-decoration: none;
+}
