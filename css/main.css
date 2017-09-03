@@ -1,0 +1,304 @@
+/*  global  */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: sans-serif;
+  margin:0 auto;
+  font-size: 16px;
+	font-weight: normal;
+}
+a {
+	text-decoration: none;
+}
+ul, li {
+    list-style-type: none;
+}
+.wrapper {
+	width: 1180px;
+	background: #fff;
+	margin: 0 auto;
+}
+.container {
+	max-width: 940px;
+	margin: 0 auto;
+}
+h3 {
+  font-size: 36px;
+}
+span {
+  color: #447536;
+}
+
+/*  Section #1  Василь  */
+
+header {
+  background: #447536;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+.logo img {
+  height: 50px;
+  width: 155px;
+}
+  .nav__list {
+  display: flex;
+  flex-direction: row;
+}
+.nav__list a {
+  width:100%;
+  padding: 20px 20px;
+  line-height: 50px;
+  color:#000;
+  font-size: 18px;
+  transition: all .3s;
+}
+.nav__list a:hover {
+  width:100%;
+  color:#fff;
+}
+
+/*  Section #2  Василь  */
+
+.call_to_action {
+  height: 400px;
+  background: url("../img/call-to-action.jpg");
+  display: flex;
+  flex-direction: column;
+}
+.call_to_action article {
+  margin: 0 auto;
+  width: 300px;
+  text-align: center;
+  color: #b9ffa4;
+}
+.call_to_action h1 {
+  margin: 75px auto 0;
+  font-size: 38px;
+  text-align: center;
+  color: #b9ffa4;
+}
+.call_to_action button {
+  width: 150px;
+  height: 30px;
+  background: #00afc7;
+  border-radius: 10%;
+  color: #b9ffa4;
+}
+
+/*  Section #3  Василь  */
+
+.credibility_logos {
+  height: 70px;
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 120px;
+}
+.credibility_logos h3 {
+  line-height: 50px;
+  font-size: 21px;
+  color: #447536;
+}
+.credibility_logos img {
+  height: 50px;
+}
+
+/*  Section #4 Іванка  */
+
+.subscribe {
+	background: #008B8B;
+	color: #fff;
+  padding: 20px 0;
+}
+.subscribe__content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.subscribe img {
+	height: 70px;
+}
+.subscribe__content-right {
+	width: 400px;
+  align-self: center;
+}
+
+/*  Section #5 Іванка  */
+
+.latest-episodes {
+  background: #191919;
+  padding-bottom: 50px;
+}
+.latest-episodes h3 {
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+.eposidests-list {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom: 50px;
+}
+.episodests-item img {
+    width: 100%;
+    height: 180px;
+    background: #B8ABAB;
+}
+.episodests-item img:hover {
+    transform: scale(1.1);
+}
+.episodests-item {
+    width: 23%;
+}
+.episodests-item-content h4 {
+    margin: 10px 0;
+    color:#00B7E0;
+}
+.episodests-item-content p{
+    color: #fff;
+    line-height: 1.5;
+    margin-bottom: 5px;
+}
+.latest-episodes a {
+    color:#00B7E0;
+    text-align: left;
+}
+.more-episodes {
+    display: block;
+    background: #000;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 10px 25px;
+    border: 1px solid #00B7E0;
+    border-radius: 3px;
+    color: #00B7E0;
+}
+.more-episodes:hover {
+    color: #fff;
+    border-color: #fff;
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+.more-episodes:active {
+    color: #8D41D6;
+    border-color: #8D41D6;
+}
+
+/*  Section #7,8 Віталік */
+
+.popular {
+	display: flex;
+	flex-direction: row;
+	padding: 20px 0;
+}
+.popular__list {
+	width: 70%;
+}
+.popular__list-item {
+	margin-top: 10px;
+	display: flex;
+	flex-direction: row;
+}
+.popular__list-item img {
+	width: 170px;
+	height: 150px;
+	background: #B8ABAB;
+}
+.popular__list-item-cnt{
+	padding: 0 20px;
+}
+.popular__list-item-cnt h4 {
+	color: #000;
+	font-size: 20px;
+	line-height: 24px;
+}
+.social {
+	width: 30%;
+}
+.social h4 {
+	color: #000;
+	font-size: 20px;
+	line-height: 36px;
+	padding: 25px 0;
+}
+.social__box img {
+  width: 100%;
+  height: 100%;
+  border: 2px solid #000;
+}
+
+/*  Section #9 Віталік */
+
+.consume {
+	background: #D9D8D8;
+	text-align: center;
+	padding: 30px;
+}
+.consume__list {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+  padding: 50px 20px;
+}
+.consume__list img {
+  border-radius: 50%;
+  height: 160px;
+  width: 160px;
+  margin: 20px;
+}
+.consume__list :hover {
+  transform: scale(1.3);
+  transition: all .3s;
+}
+
+/*  Section #10,11  Віталік */
+
+footer {
+	background: #000;
+}
+.footer__epilogue {
+	padding: 50px 0;
+	display: flex;
+	flex-direction: row;
+}
+.footer__epilogue  h3 {
+	color: #fff;
+	margin-bottom: 40px;
+}
+.footer__epilogue-left {
+	width: 60%;
+	padding-right: 50px;
+	line-height: 24px;
+  color: #D9D8D8;
+}
+.footer__epilogue-right {
+	width: 40%;
+	text-align: center;
+	color: #fff;
+	font-size: 26px;
+}
+.footer__epilogue-right-button {
+	padding: 10px 30px;
+	border: 2px solid #fff;
+	border-radius: 3px;
+	background: #000;
+	color: #fff;
+	margin-top: 60px;
+}
+.footer__epilogue-right-button:hover {
+	border: 2px solid #D9D8D8;
+	color: #D9D8D8;
+}
+.footer__legalese {
+	background: #447536;
+	text-align: center;
+	padding: 10px;
+  font-weight: 600;
+}

@@ -3,32 +3,32 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Documet</title>
-	<link rel="stylesheet" type="text/css" href="css/Vasyl.css">
-	<link rel="stylesheet" type="text/css" href="css/Ivanna.css">
-	<link rel="stylesheet" type="text/css" href="css/Vitalik.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
-	<div class="wrap">
-		
-		<!-- HEADER -->
+	<div class="wrapper">
+
+<!-- HEADER ( section #1 )-->
 
 		<header>
-			<a class="logo" href="#main">
-				<img src="img/logo.png" alt="LOGO">
-			</a>
-			<nav class="menu">
-				<a href="#tab1">Home</a>
-				<a href="#tab2">New episodes</a>
-				<a href="#tab3">Forum</a>
-				<a href="#tab4">About</a>
-			</nav>
+			<div class="container">
+				<nav>
+					<a href="#" class ="logo"><img src="img/logo.png" alt="logo img"></a>
+							<ul class="nav__list">
+								<li class="nav__list-item"><a href="#">Home</a></li>
+								<li class="nav__list-item"><a href="#">Episodes</a></li>
+								<li class="nav__list-item"><a href="#">Forum</a></li>
+								<li class="nav__list-item"><a href="#">About</a></li>
+							</ul>
+				</nav>
+			</div>
 		</header>
 
-		<!-- MAIN CONTENT -->
+<!-- MAIN CONTENT -->
 
 		<main>
 
-		<!-- Call to action section -->
+<!-- section #2 -->
 
 			<section class="call_to_action">
 				<h1>Rick and Morty</h1>
@@ -39,52 +39,56 @@
 				</article>
 			</section>
 
-		<!-- Credibility logos section -->
+<!-- section #3 -->
 
 			<section class="credibility_logos">
-				<h3>AS SEEN ON</h3>
-				<img src="img/tv1.png" alt="TV">
-				<img src="img/tv2.png" alt="TV">
-				<img src="img/tv3.png" alt="TV">
-				<img src="img/tv4.png" alt="TV">
-				<img src="img/tv5.png" alt="TV">
+					<h3>AS SEEN ON</h3>
+					<img src="img/tv1.png" alt="TV">
+					<img src="img/tv2.png" alt="TV">
+					<img src="img/tv3.png" alt="TV">
+					<img src="img/tv4.png" alt="TV">
+					<img src="img/tv5.png" alt="TV">
 			</section>
 
-			<!-- Subscribe buttons section -->
+<!-- section #4 -->
 
-		<section class="subscribe_buttons">
-			<div class="left_side">
-				<h2>Subscribe us</h2>
-			    <div>
-			        <img src="img/sub_stitcher.png" alt="substic">
-			        <img src="img/sub_itunes.png" alt="substic">
+		<section class="subscribe">
+			<div class="container">
+				<div class="subscribe__content">
+				<div class="subscribe__content-left">
+					<h2>Subscribe us</h2>
+				    <div>
+				        <img src="img/sub_stitcher.png" alt="substic">
+				        <img src="img/sub_itunes.png" alt="substic">
+					</div>
+				</div>
+				<div class="subscribe__content-right">
+					<h3>Lorem ipsum dolor sit amet.</h3>
+						<ul>
+							<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, maxime</li>
+							<li>Lorem ipsum dolor sit amet, consectetur adipisicing</li>
+							<li>Lorem ipsum dolor sit amet</li>
+						</ul>
+					</div>
 				</div>
 			</div>
-			<div class="rights_side">
-				<h3>Lorem ipsum dolor sit amet.</h3>
-					<ul>
-						<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, maxime</li>
-						<li>Lorem ipsum dolor sit amet, consectetur adipisicing</li>
-						<li>Lorem ipsum dolor sit amet</li>
-					</ul>
-			</div>
-		</section>
+		</section> -->
 
-		<!-- FEATURED GUESTS SECTION -->
+<!-- section #5 -->
 
-	<section class="featured_guests">
-		<h2>Main Headline</h2>
-		<div class="featured_cont">
+<!-- <section class="featured">
+		<h3>Main <span>Headline</span></h3>
+		<div class="featured__content">
 		    <img src="img/featured_1.png" alt="Subscribe">
 		<div>
 			<h3>Lorem ipsum dolor sitamet, consectetur adipisicing elit.</h3>
 			<p>Perspiciatis natus, voluptas sint consectetur deserunt error quo rem ipsa necessitatibus consequuntur harum officia.</p>
-			</div>		
+			</div>
 			<img src="img/featured_2.png" alt="Subscribe">
 		<div>
 			<h3>Lorem ipsum dolor sitamet, consectetur adipisicing elit.</h3>
 			<p>Perspiciatis natus, voluptas sint consectetur deserunt error quo rem ipsa necessitatibus consequuntur harum officia.</p>
-		</div> 
+		</div>
 			<img src="img/featured_3.png" alt="Subscribe">
 		<div>
 			<h3>Lorem ipsum dolor sitamet, consectetur adipisicing elit.</h3>
@@ -94,26 +98,161 @@
 		<div>
 			<h3>Lorem ipsum dolor sitamet, consectetur adipisicing elit.</h3>
 			<p>Perspiciatis natus, voluptas sint consectetur deserunt error quo rem ipsa necessitatibus consequuntur harum officia.</p>
-		</div>		
+		</div>
 		</div>
 	</section>
 
-	<!--lATEST EPISODES SECTION-->
+<!-- section #6 -->
 
-	<section class="latest_episodes">
-				<h2>Main HEADLINE</h2>
-				<div class="episodes_cont">
-					<div class="episode_item"><img src="img/latest1.png" alt="LE"><h4>Lorem ipsum dolor. Lorem ipsum dolor.</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis aliquid minus ipsam dolores dicta eaque ab tempore, eveniet iure deleniti natus at quod, vero atque nulla, eligendi cum ipsa sequi.</p>
-					<p><a href="#read">read more</a></p></div>
-					<div class="episode_item"><img src="img/latest2.png" alt="LE"><h4>Lorem ipsum dolor. Lorem ipsum dolor.</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis aliquid minus ipsam dolores dicta eaque ab tempore, eveniet iure deleniti natus at quod, vero atque nulla, eligendi cum ipsa sequi.</p>
-					<p><a href="#read">read more</a></p></div><div class="episode_item"><img src="img/latest3.png" alt="LE"><h4>Lorem ipsum dolor. Lorem ipsum dolor.</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis aliquid minus ipsam dolores dicta eaque ab tempore, eveniet iure deleniti natus at quod, vero atque nulla, eligendi cum ipsa sequi.</p>
-					<p><a href="#read">read more</a></p></div><div class="episode_item"><img src="img/latest4.png" alt="LE"><h4>Lorem ipsum dolor. Lorem ipsum dolor.</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis aliquid minus ipsam dolores dicta eaque ab tempore, eveniet iure deleniti natus at quod, vero atque nulla, eligendi cum ipsa sequi.</p>
-					<p><a href="#read">read more</a></p></div>
+<section class="latest-episodes">
+	<div class="container">
+		<h3>Main <span>Headline</span></h3>
+	<div class="eposidests-list">
+		<article class="episodests-item">
+			<img src="img/latest1.png" alt="">
+				<div class="episodests-item-content">
+					<h4>Title of Talk or Article - title of talk or Article</h4>
+					<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+					<a href="#">read more</a>
 				</div>
-				<a href="#older"><div class="older">«Older entires</div></a>
-				<a href="#more"><div class="ep_button">More episodes</div></a>
+		</article>
+		<article class="episodests-item">
+			<img src="img/latest2.png" alt="">
+				<div class="episodests-item-content">
+					<h4>Title of Talk or Article - title of talk or Article</h4>
+					<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+					<a href="#">read more</a>
+				</div>
+		</article>
+		<article class="episodests-item">
+			<img src="img/latest3.png" alt="">
+				<div class="episodests-item-content">
+					<h4>Title of Talk or Article - title of talk or Article</h4>
+					<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+					<a href="#">read more</a>
+				</div>
+		</article>
+		<article class="episodests-item">
+			<img src="img/latest4.png" alt="">
+				<div class="episodests-item-content">
+					<h4>Title of Talk or Article - title of talk or Article</h4>
+					<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+					<a href="#">read more</a>
+				</div>
+		</article>
+		</div>
+		<a href="#"><span>&#171;</span> Older Entries</a>
+	</div>
+		<button class="more-episodes">More Episodes</button>
+</section>
+
+<!-- section #7-8 -->
+
+			<section class="popular-social">
+				<div class="container">
+					<section class="popular">
+						<div class="popular__list">
+								<h3>Main <span>Headline</span></h3>
+								<div class="popular__list-item">
+									<img src="img/popular1.png" alt="Avatar img">
+									<div class="popular__list-item-cnt">
+									<h4>Title of Talk or Article - title of talk or Article</h4>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+										 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+										  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+											 nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+											  reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+									 </div>
+								</div>
+								<div class="popular__list-item">
+									<img src="img/popular2.png" alt="Avatar img">
+									<div class="popular__list-item-cnt">
+									<h4>Title of Talk or Article - title of talk or Article</h4>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+										 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+										  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+											 nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+											  reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+									 </div>
+								</div>
+								<div class="popular__list-item">
+									<img src="img/popular3.png" alt="Avatar img">
+									<div class="popular__list-item-cnt">
+									<h4>Title of Talk or Article - title of talk or Article</h4>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+										 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+										  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+											 nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+											  reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+									 </div>
+								</div>
+								<div class="popular__list-item">
+									<img src="img/popular4.png" alt="Avatar img">
+									<div class="popular__list-item-cnt">
+									<h4>Title of Talk or Article - title of talk or Article</h4>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+										 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+										  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+											 nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+											  reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+									 </div>
+								</div>
+						</div>
+						<section class="social">
+							<aside>
+								<h4>Find Us on <span>Facebook</span></h4>
+								<div class="social__box">
+										<img src="img/facebook.png" alt="">
+								</div>
+							</aside>
+						</section>
+					</section>
+				</div>
 			</section>
-		</main>
+
+<!--Section #9 -->
+
+					<section class="consume">
+						<div class="container">
+							<h3>Main<span> Headline</span></h3>
+										<div class="consume__list">
+											<img src="img/how1.png" alt="image or icon">
+											<img src="img/how2.png" alt="image or icon">
+											<img src="img/how3.png" alt="image or icon">
+										</div>
+						</div>
+					</section>
+				</main>
+
+<!--Section #10 -->
+
+				<footer class="footer">
+					<div class="container">
+						<section class="footer__epilogue">
+							<div class="footer__epilogue-left">
+								<h3>Main<span> Headline</span></h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+									Consequatur, nisi cupiditate dolores distinctio incidunt
+									adipisci! Quas eum error necessitatibus at ea consectetur
+									earum voluptatum voluptates dicta officia neque, perspiciatis,
+									excepturi!Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+									Consequatur, nisi cupiditate dolores distinctio incidunt adipisci!
+									Quas eum error necessitatibus at ea consectetur earum voluptatum
+									voluptates dicta officia neque, perspiciatis, excepturi!</p>
+							</div>
+							<div class="footer__epilogue-right">
+								<h4>Large Call-To-Action Headline</h4>
+								<button class="footer__epilogue-right-button">Call-to-Action Button Here</button>
+							</div>
+							</section>
+						</div>
+
+<!--Section #11 -->
+
+							<section class="footer__legalese">
+							<p>Copyright &#169; 2016 · Company Information</p>
+						</section>
+				</footer>
 	</div>
 </body>
 </html>
